@@ -23,3 +23,10 @@ jobs:
 
       - name: run tests
         run: npm run test -- --coverage
+  
+  format:
+      name: Check Formatting using Prettier
+      runs-on: ubuntu-latest
+      steps:      
+        - name: check formatting
+          run: npm run format:check
