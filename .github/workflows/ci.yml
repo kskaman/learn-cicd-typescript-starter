@@ -24,8 +24,8 @@ jobs:
       - name: run tests
         run: npm run test -- --coverage
   
-  format:
-    name: Check Formatting using Prettier
+  stylet:
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
